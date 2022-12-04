@@ -7,7 +7,7 @@ import androidx.lifecycle.ViewModel
 class HomeViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "Чистий андроїд судячи з усього не дуже розрахований на створення всіх варіантів інтерактивного контенту..."
+        value = "«Мозок наркомана точно не здатен сформулювати нічого нового, що могло би бути корисно або цікаво для людиней не орієнтованих на психічні розлади» Дмитро Дурач"
     }
     val text: LiveData<String> = _text
 }
